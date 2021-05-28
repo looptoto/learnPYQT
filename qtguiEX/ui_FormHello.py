@@ -20,7 +20,8 @@ class Ui_FormHello(object):
         self.btnClose = QtWidgets.QPushButton(FormHello)
         self.btnClose.setGeometry(QtCore.QRect(100,90,75,23))
         self.btnClose.setObjectName("btnClose")
-        
+
+
         self.retranslateUi(FormHello)
         QtCore.QMetaObject.connectSlotsByName(FormHello)
 
